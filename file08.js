@@ -1,6 +1,8 @@
 "use strict";
 
 // typeof operator
+
+
 // data types (primitive data types)
 // Number 12
 // String "jitendra"
@@ -37,4 +39,3 @@ let  myAge = "23";
 // method 2 ->
 myAge = Number(myAge);
 console.log(typeof myAge);
-

@@ -31,5 +31,5 @@ console.log(thirdName);
 
 // use Case for slice 
 let forthName = "rohit saini"
-forthName = forthName.slice(0,4);
+forthName = forthName.slice(0,4); //rohi because using index
 console.log(forthName);
