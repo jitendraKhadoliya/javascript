@@ -13,7 +13,7 @@
 // let num = "";
 // let num = 0;
 // let num;
- let num =3;
+ let num = 3;
 
 if(num){
     console.log("it shows IF accepting value");
