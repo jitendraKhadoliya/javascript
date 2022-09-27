@@ -11,7 +11,7 @@
 
 let winningNumber = 24;
 let userGuessNumber = +prompt("Guess the number");
-console.log("your Guess number is :-" + typeof userGuessNumber, userGuessNumber);
+console.log("your Guess number is :- " + typeof userGuessNumber, userGuessNumber);
 // userGuessNumber =  +userGuessNumber ;
 // userGuessNumber = Number(userGuessNumber);
 // console.log(typeof userGuessNumber,userGuessNumber);

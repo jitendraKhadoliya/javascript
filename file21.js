@@ -2,10 +2,14 @@
 // while loop example
 // sum of first 10 natural Number
 
-let number =0;
-while(number<=4){
-    number + number;
-    number++;
-    console.log(number);
+let a = 0;
+let b = 0;
+while(a<=10){
+    b = b + a; 
+    a++;
 }
-console.log(number);
+console.log(b);
+
+// let n =5 ;
+// let d = (n*(n+1))/2;
+// console.log(d);

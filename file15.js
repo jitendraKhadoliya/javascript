@@ -14,6 +14,6 @@
 
 // tearnary opreatore(conditonal operatore)
 
-let age =12;
+let age =2;
 let drink = age<=10 ? "milk" : "sarbat";
 console.log(drink);

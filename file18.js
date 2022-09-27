@@ -22,6 +22,8 @@
 
 
 // lets understand it with differnt example
+
+
 let tempInDegree = prompt("Enter your Current temp");
 if(tempInDegree <= -1){
     console.log("your current temp is in minus");
