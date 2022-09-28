@@ -28,6 +28,3 @@ arrName1.push("punit");
 console.log("this is the value of arrName1",arrName1);
 console.log("this is the value of arrName2",arrName2);
 
-let str = "jitendra";
-let str1 = str.slice(4);
-console.log(str1);
