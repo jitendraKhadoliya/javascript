@@ -1,7 +1,10 @@
 "use strict";
 
 // computed properties
+
+ 
 const key1 = "name";
+
 const key2 = "age" ;
 
 const value1 = "jitendra";
