@@ -57,5 +57,5 @@ console.log(j);
 
             // one more example
             // checking first index of any String
-            const chkStr = str => str[0]; 
+            const chkStr = str =>str[0]; 
             console.log(chkStr("jitendra"));

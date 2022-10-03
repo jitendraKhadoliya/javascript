@@ -17,3 +17,18 @@ const additionOfTwo = function(num1,num2) {
 
 // calling function here
 additionOfTwo(2,4);
+
+
+// new function expression
+// funstion expression
+const isEven = function (number){
+    // another short trick
+    return number % 2 === 0;
+
+    // if (number % 2 === 0){
+        // return true; 
+    // }
+        // return false;
+}
+console.log(isEven(21));
+
