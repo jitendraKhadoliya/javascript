@@ -46,3 +46,5 @@ console.log(user2);
 user2.about();
 const chk = user2.checkIs18();
 console.log(chk);
+
+// still there are many mistakes we will sort them
