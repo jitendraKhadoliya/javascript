@@ -5,7 +5,7 @@
 //     this.firstName = "jitendra";
 //     this.age = 24;
 // }
-// // new keyword do maily three works
+// // new keyword do mainly three works
 // // 1-> creates new emepty object this ={}
 // // 2-> asign values using this return {}
 // // 3-> direclty create proto

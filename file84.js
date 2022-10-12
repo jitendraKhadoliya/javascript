@@ -1,6 +1,5 @@
 "use strict";
-// wanting keyword
-
+// wanting to print keys
 
 const CreateUser = function(firstName,lastName,email,age,address){
     this.firstName = firstName,
