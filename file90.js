@@ -8,9 +8,11 @@ class person{
         this.lastName = lastName;
         this.age=age;
     }
+    // gettter
     get fullName(){
         return `${this.firstName} ${this.lastName}`;
     }
+    // setter 
 //     setName(firstName,lastName){
 //         this.firstName = firstName;
 //         this.lastName = lastName;

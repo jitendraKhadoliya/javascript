@@ -1,5 +1,6 @@
 "use strict";
 // static methods and property
+// we can call directly using class name in static methods and property
 
 
 class person{
@@ -22,6 +23,7 @@ class person{
 }
 const user1 = new person("jitu",24);
 console.log(user1);
-console.log(user1.myInfo);
+console.log(user1.myInfo); //showing undefined
+// here we are calling directly using classname
 console.log(person.myInfo());
 console.log(person.prp);
