@@ -9,9 +9,6 @@
 // }
 // shorter way 
 // const myFunction = (power) => (number) =>  number ** power ;
-const myFunction = (power) => {return (number) => {
-    return number ** power
-} };
 
 
 
