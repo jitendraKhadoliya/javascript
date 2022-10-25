@@ -1,9 +1,9 @@
 "use strict";
 
-// dom
-// docoment object model
+// DOM
+// Document Object Model
 // overview
-
+// how to use
 // full detail
 
 console.dir(window.document);

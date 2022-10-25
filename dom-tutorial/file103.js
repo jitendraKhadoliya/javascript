@@ -6,5 +6,8 @@
 // aim : i want to access main heading in index file using get element by id in dom so let's see how i can access
 
 // in reailty it prints object 
-console.log(typeof document.getElementById("main-heading"));
+// console.log(typeof document.getElementById("main-heading"));
+const mainHeading = console.log(typeof document.getElementById("main-heading"));
+console.log(mainHeading);
 
+// this method only works in ids
