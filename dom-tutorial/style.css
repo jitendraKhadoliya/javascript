@@ -101,8 +101,16 @@ a{
     color: cyan;
     padding: 1rem;
     margin-top: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
+.todo-btn{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
 .section-signup{
     margin: 1rem auto;
     margin: auto;
