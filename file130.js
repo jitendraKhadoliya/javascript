@@ -18,7 +18,12 @@
 // it means it will do the next task and the feature that we want to asynchronous in code will be executed in last
 // let's see 
 
-// setTimeout
+// setTimeout :- file will execute after the time we had given in setTimeout and in setTimeout 1000 =  1 sec 
+
+
+const firstLine = setTimeout(()=>{
+    console.log("start printing after 5 seconds")}
+    ,5000);
 
 console.log("script start");
 
