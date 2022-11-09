@@ -1,0 +1,69 @@
+
+/* we can triggr root element by using :root{} and html{} */
+/* :root{
+    /* --color-hue : 218;
+    --color-primary: hsl(var(--color-hue), 48%, 59%);
+    --color-primary-light: hsl(218, 48%, 70%);
+    --color-body : hsl(218, 48%, 96%);
+     */
+     /* --color-primary: hsl(218, 49%, 43%);
+     --color-primary-light: hsl(218, 49%, 50%);
+     --color-body : hsl(218, 49%, 96%);
+     --color-text : hsl(218,20%,20%); */
+
+            /* HSL  */
+            /* hue - color */ 
+            /* saturation - pure */
+            /* light -light  */
+/* }
+
+.dark-mode{
+    --color-primary: hsl(218, 49%, 48%);
+    --color-primary-light: hsl(218, 49%, 50%);
+    --color-body : hsl(218, 49%, 6%);
+    --color-text : hsl(218,20%,90%); 
+} */ 
+
+:root{
+    --color-primary : hsl(204, 70%, 43%);
+    --color-heading : hsl(204, 70%, 50%);
+    --color-body : hsl(204, 70%, 85%);
+    --color-text : hsl(204, 60%, 2%);
+    --color-primary-light : hsl(204, 70%, 50%); 
+ }
+
+.dark-theme{
+    --color-primary : hsl(204, 70%, 43%);
+    --color-heading : hsl(204, 70%, 90%);
+    --color-body : hsl(204, 70%, 6%);
+    --color-text : hsl(204, 60%, 95%);
+    --color-primary-light : hsl(204, 70%, 50%);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-body);
+}
+
+p{
+    color: var(--color-text);
+}
+
+h2{
+    color: var(--color-heading);
+}
+
+.toggle-theme{
+    font-size: inherit;
+    cursor: pointer;
+    font: bold;
+    padding: 1rem 1.5rem;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    transition: 0.3s background;
+    border: none;
+    outline: none;
+}
+.toggle-theme:hover{
+    background-color: var(--color-primary-light);
+}
