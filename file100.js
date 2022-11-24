@@ -12,8 +12,14 @@
 
 
 
-const cube = myFunction(2);
-const ans = cube(3);
-console.log(ans);
+// const cube = myFunction(2);
+// const ans = cube(3);
+// console.log(ans);
 
 // fully expained in notes
+
+
+// just prectice
+console.log(myName);
+let myName = "jitu";
+console.log(myName);

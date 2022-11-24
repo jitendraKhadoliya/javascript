@@ -17,3 +17,19 @@ let evenNumbers = myArr.filter(isOdd  =  number => {
 return number %2 !== 0;
 });
 console.log(evenNumbers); 
+
+const unFilteredArray = [1,23,42,53,65,77,88];
+// const filteredArray = [];
+
+// for(let i =0; i< unFilteredArray.length ; i++){
+//     if(unFilteredArray[i] %2 === 0){
+//         // console.log(unFilteredArray[i]);
+//         filteredArray.push(unFilteredArray[i])
+//     }
+// }
+
+// console.log(filteredArray);
+const filteredArray = unFilteredArray.filter((number)=>{
+    return number %2 !== 0;
+})
+console.log(filteredArray);
